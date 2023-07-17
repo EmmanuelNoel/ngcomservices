@@ -1,0 +1,694 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=1">
+  <title>Personnel NGCom</title>
+
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="mdb.min.css" />
+  <link rel="stylesheet" href="chargement.css">
+  <link rel="stylesheet" href="https://bootswatch.com/5/darkly/bootstrap.min.css">
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/fav.ico" />
+  <!-- Font Awesome icons (free version)-->
+  <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css" />
+  <link href="../css/styles.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/responsive.css" rel="stylesheet" type="text/css">
+  <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+  <link rel="icon" type="image/x-icon" href="../assets/fav.ico" />
+
+
+  <!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
+
+  <script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="js/wow.js"></script>
+
+
+  <!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+<![endif]-->
+
+  <script type="text/javascript">
+    $(document).ready(function (e) {
+      $('.res-nav_click').click(function () {
+        $('ul.toggle').slideToggle(600)
+      });
+
+      $(document).ready(function () {
+        $(window).bind('scroll', function () {
+          if ($(window).scrollTop() > 0) {
+            $('#header_outer').addClass('fixed');
+          }
+          else {
+            $('#header_outer').removeClass('fixed');
+          }
+        });
+
+      });
+
+
+    });
+    function resizeText() {
+      var preferredWidth = 767;
+      var displayWidth = window.innerWidth;
+      var percentage = displayWidth / preferredWidth;
+      var fontsizetitle = 25;
+      var newFontSizeTitle = Math.floor(fontsizetitle * percentage);
+      $(".divclass").css("font-size", newFontSizeTitle)
+    }
+  </script>
+  <style>
+    @media all and (min-width: 1000px) {
+      .quatre {
+        display: flex;
+      }
+    }
+
+
+    @media all and (min-width: 900px) {
+      .dernier {
+        margin-left: 4.5%;
+      }
+    }
+
+
+    .pic {
+      margin-left: 95%;
+    }
+
+    .activate {
+      color: rgb(116, 20, 20);
+    }
+
+    #mainNav {
+      background-color: #2A7C46;
+    }
+
+    .cho {
+      color: white;
+    }
+
+    .active {
+      color: white;
+    }
+
+    .new {
+      color: green;
+    }
+
+    .tree {
+      height: 100px;
+
+    }
+
+    .to {
+      height: 20px;
+    }
+
+    .bg {
+      color: green;
+    }
+
+    .desc {
+      height: 200px;
+
+    }
+
+    #bof {
+      color: white;
+    }
+
+    @media only screen and (max-width:500px) {
+      #controle_audit {
+        flex-wrap: wrap-reverse;
+        flex-direction: row-reverse;
+        display: flex;
+
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    a:hover {
+      color: white;
+    }
+
+    .navbar-toggler {
+      margin-left: 40px;
+    }
+
+    .h6text {
+      text-align: justify;
+    }
+
+    .correct{
+      height: 15px;
+    }
+
+    
+  @media only screen and (min-width:300px) {
+      .navbar-toggler {
+      margin-left: 40px;
+    }
+
+
+    }
+
+
+    @media only screen and (min-width:550px) {
+      .navbar-toggler {
+      margin-left: 60px;
+    }
+
+
+    }
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+text-decoration: none;
+  color:white;
+}
+  </style>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md  " id="mainNav" style="background-color:#2A7C46 ;">
+    <div class="container-fluid">
+      <div class="d-flex">
+        <img width="25%" src="LOGO_NGCOMSERVICES.jpg" />
+        <span class="text-white  ms-3" style="margin-top: 7%;">
+          <h5> <a href="index-c.html">NGCom Services SAS</a></h5>
+        </span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class=" nav-link gx-3  text-white" href="../index-c.html"> <b> Accueil </b></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" role="button" aria-haspopup="true"
+              aria-expanded="false"> <b class=> Services </b></a>
+            <div class=" dropdown-menu" style="background-color:#2A7C46 ;">
+
+              <a class="text-white dropdown-item fw-bold" href="../energie_renouvelables.html">Energies
+                Renouvelables</a>
+              <a class="text-white dropdown-item fw-bold" href="../reseau_telecom.html">Réseaux et Telécoms</a>
+              <a class="text-white dropdown-item fw-bold" href="../maintenance.html">Informatique</a>
+              <a class="text-white dropdown-item fw-bold" href="../controleAudit.html">Contrôle audit des<span
+                  id="controle_audit">
+                  installations photovoltaïques</span></a>
+              <a class="text-white dropdown-item fw-bold" href="../formation.html">Formations</a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../produits.html">Produits</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../references.html">Nos références</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="../personnel/info.html"> <b class="activate">Info</b> </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <b class=> Nous rejoindre </b></a>
+            <div class=" dropdown-menu fw-bold" style="background-color:#2A7C46 ;">
+              <a class="text-white dropdown-item fw-bold" href="../stagiaire.html">
+                Demande stage</a>
+              <a class="text-white dropdown-item fw-bold" href="../client.php">Client</a>
+
+
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="container">
+    <h2>Impact Societal</h2>
+  
+    <h6 class="text-justify" style="text-align: justify;">
+      Avec les objectifs affichés par le Bénin en matière de développement durable, ses engagements pris à la Conférence
+      de Paris sur le climat (COP21) en décembre 2015, le document de la Politique Nationale de Développement des
+      Energies Renouvelables (PONADER) adoptée en octobre 2018, les différentes activités mises en œuvre dans le PAG,
+      l'avenir est aux énergies renouvelables dont l'empreinte écologique est minimale. NGCom Services, dans ce
+      dynamisme, assiste et conseille les entreprises, les ONG et les particuliers à assurer leurs autonomies
+      énergétiques ou à réduire les dépenses énergétiques. Ainsi, avec les installations de systèmes solaires et de
+      production de biogaz à partir des déchets organiques, NGCom Services participe à l’amélioration du taux
+      d’électrification en milieu rural et urbain, à la réduction des émissions des gaz à effet de serre et à
+      l’atténuation du réchauffement climatique pour un Bénin résilient.
+    </h6>
+    <h2>La TEAM NGCOM Services SAS</h2>
+    <h6>Une équipe de spécialistes</h6>
+    <div class="team-leader-block clearfix ">
+      <div class="quatre">
+        <div class="team-leader-box ">
+          <div class="team-leader wow fadeInDown delay-03s">
+            <div class="team-leader-shadow"><a href="#"></a></div>
+            <img src="img/yao.png" alt="">
+            <ul>
+              <li><a href="#" class="fa-brands fa-whatsapp "></a></li>
+              <li><a href="#" class="fa-brands fa-envelope "></a></li>
+            </ul>
+          </div>
+          <h5 class="wow text-black fadeInDown delay-03s">Yao J. GNAGBOLOU </h5>
+          <span class="wow fadeInDown delay-03s">DIRECTEUR GENERAL <br> Ingénieur de Conception en Génie Electrique & Informatique</span>
+        </div>
+        <div class="team-leader-box">
+          <div class="team-leader  wow fadeInDown delay-06s">
+            <div class="team-leader-shadow"><a href="#"></a></div>
+            <img src="img/Sandrine.jpg" alt="">
+            <ul>
+              <li><a href="#" class="fa-brands fa-whatsapp "></a></li>
+              <li><a href="#" class="fa-brands fa-envelope"></a></li>
+
+
+            </ul>
+          </div>
+          <h5 class="wow text-black fadeInDown delay-09s">Sandrine ASSOGBA DABIME</h5>
+          <span class="wow fadeInDown delay-09s">Responsable Administrative et Financière</span>
+        <!--  <h5 class="wow text-black fadeInDown delay-06s">Bonaventure KOUNOUHO</h5>
+          
+          <span class="wow fadeInDown delay-06s">Informaticien Support & Appui logistique </span> -->
+        </div>
+        <div class="team-leader-box ">
+          <div class="team-leader wow fadeInDown delay-09s">
+            <div class="team-leader-shadow"><a href="#"></a></div>
+            <img src="img/Michel.jpg" alt="">
+            <ul>
+              <li><a href="#" class="fa-brands fa-whatsapp "></a></li>
+              <li><a href="#" class="fa-brands fa-envelope "></a></li>
+            </ul>
+          </div>
+          <h5 class="wow text-black fadeInDown delay-09s">Michel SOTOME</h5>
+          <span class="wow fadeInDown delay-09s">Office Manager</span>
+         
+        </div>
+        <div class="team-leader-box dernier">
+          <div class="team-leader wow fadeInDown delay-09s">
+            <div class="team-leader-shadow"><a href="#"></a></div>
+            <img src="img/Bonaventure.jpg" alt="">
+            <ul>
+              <li><a href="#" class="fa-brands fa-whatsapp "></a></li>
+              <li><a href="#" class="fa-brands fa-envelope "></a></li>
+            </ul>
+          </div>
+              <h5 class="wow text-black fadeInDown delay-06s">Bonaventure KOUNOUHO</h5>
+          
+          <span class="wow fadeInDown delay-06s">Informaticien Support & Appui logistique </span> 
+        <!--   -->
+        </div>
+      </div>
+
+      <div class="quatre">
+        <div class="team-leader-box">
+          <div class="team-leader wow fadeInDown delay-09s">
+            <div class="team-leader-shadow"><a href="#"></a></div>
+            <img src="img/Luc.png" alt="">
+            <ul>
+              <li><a href="#" class="fa-brands fa-whatsapp "></a></li>
+              <li><a href="#" class="fa-brands fa-envelope "></a></li>
+            </ul>
+          </div>
+          <h5 class="wow text-black fadeInDown delay-09s">Luc BALOGOUN </h5>
+          <span class="wow fadeInDown delay-09s">Assitant Technique de Direction</span>
+        <!-- --> 
+        </div>
+        <div class="team-leader-box">
+          <div class="team-leader wow fadeInDown delay-09s">
+            <div class="team-leader-shadow"><a href="#"></a></div>
+            <img src="img/Marcel.jpg" alt="">
+            <ul>
+              <li><a href="#" class="fa-brands fa-whatsapp "></a></li>
+              <li><a href="#" class="fa-brands fa-envelope "></a></li>
+            </ul>
+          </div>
+          <h5 class="wow text-black fadeInDown delay-09s">Marcel AGBANDOUGBE</h5>
+          <span class="wow fadeInDown delay-09s">Electrotechnicien et agent technique de support </span>
+        </div>
+        <div class="c team-leader-box">
+          <div class="team-leader wow fadeInDown delay-09s">
+            <div class="team-leader-shadow"><a href="#"></a></div>
+            <img src="img/Geral.jpg" alt="myriam">
+            <ul>
+              <li><a href="https://wa.me/qr/RJFYPGWK65SAJ1" class="fa-brands fa-whatsapp "></a></li>
+              <li><a href="#" class="fa-brands fa-envelope "></a></li>
+            </ul>
+          </div>
+          <h5 class="wow text-black fadeInDown delay-09s">Gérald GUEZO</h5>
+          <span class="wow fadeInDown delay-09s">Consultant en Informatique et Réseaux Télécoms</span>
+        </div>
+
+        <div class="team-leader-box dernier">
+          <div class="team-leader wow fadeInDown delay-09s">
+            <div class="team-leader-shadow"><a href="#"></a></div>
+            <img src="img/gabriel.png" alt="nadine">
+            <ul>
+              <li><a href="#" class="fa-brands fa-whatsapp "></a></li>
+              <li><a href="#" class="fa-brands fa-envelope "></a></li>
+            </ul>
+          </div>
+          <h5 class="wow text-black fadeInDown delay-09s">Gabriel GOUTCHOUEDOU </h5>
+          <span class="wow fadeInDown delay-09s">Electricien appui technique, Monteur</span>
+        </div>
+
+      </div>
+      <div class="quatre">
+        <div class="team-leader-box">
+          <div class="team-leader wow fadeInDown delay-09s">
+            <div class="team-leader-shadow"><a href="#"></a></div>
+            <img src="img/fred.png" alt="">
+            <ul>
+              <li><a href="#" class="fa-brands fa-whatsapp "></a></li>
+              <li><a href="#" class="fa-brands fa-envelope "></a></li>
+            </ul>
+          </div>
+          <h5 class="wow text-black fadeInDown delay-09s">Fred HOUNSOU </h5>
+          <span class="wow fadeInDown delay-09s">Chargé d'appui commercial</span>
+        </div>
+        <div class="team-leader-box">
+          <div class="team-leader wow fadeInDown delay-09s">
+            <div class="team-leader-shadow"><a href="#"></a></div>
+            <img src="img/Myriam.jpg" alt="">
+            <ul>
+              <li><a href="#" class="fa-brands fa-whatsapp "></a></li>
+              <li><a href="#" class="fa-brands fa-envelope "></a></li>
+            </ul>
+          </div>
+          <h5 class="wow text-black fadeInDown delay-09s">Myriam Sessi AGOSSADOU </h5>
+          <span class="wow fadeInDown delay-09s">chargée d'appui commerciale</span>
+        </div>
+        <div class="c team-leader-box">
+          <div class="team-leader wow fadeInDown delay-09s">
+            <div class="team-leader-shadow"><a href="#"></a></div>
+            <img src="img/Nadine.jpg" alt="nadine">
+            <ul>
+              <li><a href="#" class="fa-brands fa-whatsapp "></a></li>
+              <li><a href="#" class="fa-brands fa-envelope "></a></li>
+            </ul>
+          </div>
+          <h5 class="wow text-black fadeInDown delay-09s">Nadine DJIDAGO</h5>
+          <span class="wow fadeInDown delay-09s">Chargée d'appui commercial</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid" id="mainNav">
+
+
+    <div class="row">
+      <!-- Footer Location-->
+      <div class="col-lg-3 mb-5 mb-lg-0">
+
+        <center>
+          <b class="text-uppercase mb-4 cho"> Adresse </b>
+          <br>
+          <br>
+          <p class="cho">
+            Immeuble KPONDEHOU REP 1061,
+            <br />
+            Boulevard du Canada Rue 560 <br>
+            Cadjèhoun Cotonou
+          </p>
+        </center>
+
+      </div>
+      <!-- Footer Social Icons-->
+      <!-- Footer Social Icons-->
+
+
+
+
+
+      <div class="col-lg-3 mb-5 mb-lg-0">
+        <center>
+          <b class="text-uppercase mb-4 text-white">Contacts</b>
+          <br>
+          <br>
+          <p class="pp"><a href="tel:+229 21 30 82 78" style="text-decoration: none; color:white"><i
+                class="fa-solid fa-phone"></i> +229 21 30 82 78</a></p>
+                <div class="correct"></div>
+          <p class="pp"><a href="tel:+229 21 60 29 82" style="text-decoration: none; color:white"><i
+                class="fa-solid fa-phone"></i> +229 21 60 29 82</a></p>
+                <div class="correct"></div>
+          <p class="pp text-white">Hotline: <a href="tel:+229 64 16 18 16" style="text-decoration: none; color:white"><i
+                class="fa-solid fa-phone"></i>
+              +229 64 16 18 16</a></p>
+        </center>
+      </div>
+      <!-- Footer About Text-->
+      <div class="col-lg-3">
+        <center>
+          <b class="text-uppercase mb-4 text-white">Email</b>
+          <br><br>
+          <p><a href="mailto:benin@ngcomservices.com" style="text-decoration: none; color:white"><i
+                class="fa-solid fa-envelope"></i> benin@ngcomservices.com</a></p>
+        </center>
+      </div>
+      <div class="col-lg-3 mb-5 mb-lg-0">
+
+        <center>
+          <b class="text-uppercase mb-4 text-white">Sur le web</b>
+          <br><br>
+          <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-whatsapp"></i></a>
+        </center>
+      </div>
+    </div>
+
+  </div>
+  <div class="copyright py-4 text-center text-white">
+    <div class="container"><small>Copyright &copy; 2022 Tous droits réservés | NGCom Services SAS </small></div>
+  </div>
+
+
+  <!-- Copyright Section-->
+
+
+  <!-- Bootstrap core JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="js/scripts.js"></script>
+
+
+
+
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+  <!-- Core theme JS-->
+
+
+  <script type="text/javascript">
+    $(document).ready(function (e) {
+      $('#header_outer').scrollToFixed();
+      $('.res-nav_click').click(function () {
+        $('.main-nav').slideToggle();
+        return false
+
+      });
+
+    });
+  </script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset: 100
+      }
+    );
+    wow.init();
+    document.getElementById('').onclick = function () {
+      var section = document.createElement('section');
+      section.className = 'wow fadeInDown';
+      section.className = 'wow shake';
+      section.className = 'wow zoomIn';
+      section.className = 'wow lightSpeedIn';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+  <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    $(window).load(function () {
+
+      $('a').bind('click', function (event) {
+        var $anchor = $(this);
+
+        $('html, body').stop().animate({
+          scrollTop: $($anchor.attr('href')).offset().top - 91
+        }, 1500, 'easeInOutExpo');
+        /*
+        if you don't want to use the easing effects:
+        $('html, body').stop().animate({
+          scrollTop: $($anchor.attr('href')).offset().top
+        }, 1000);
+        */
+        event.preventDefault();
+      });
+    })
+  </script>
+
+  <!--<script type="text/javascript">
+
+$(window).load(function(){
+  
+  
+  var $container = $('.portfolioContainer'),
+      $body = $('body'),
+      colW = 350,
+      columns = null;
+
+  
+  $container.isotope({
+    // disable window resizing
+    resizable: true,
+    masonry: {
+      columnWidth: colW
+    }
+  });
+  
+  $(window).smartresize(function(){
+    // check if columns has changed
+    var currentColumns = Math.floor( ( $body.width() -30 ) / colW );
+    if ( currentColumns !== columns ) {
+      // set new column count
+      columns = currentColumns;
+      // apply width to container manually, then trigger relayout
+      $container.width( columns * colW )
+        .isotope('reLayout');
+    }
+    
+  }).smartresize(); // trigger resize to set container width
+  $('.portfolioFilter a').click(function(){
+        $('.portfolioFilter .current').removeClass('current');
+        $(this).addClass('current');
+ 
+        var selector = $(this).attr('data-filter');
+        $container.isotope({
+			
+            filter: selector,
+         });
+         return false;
+    });
+  
+});
+
+</script>
+
+
+-->
+
+  <script type="text/javascript">
+
+
+    jQuery(document).ready(function ($) {
+      // Portfolio Isotope
+      var container = $('#portfolio-wrap');
+
+
+      container.isotope({
+        animationEngine: 'best-available',
+        animationOptions: {
+          duration: 200,
+          queue: false
+        },
+        layoutMode: 'fitRows'
+      });
+
+      $('#filters a').click(function () {
+        $('#filters a').removeClass('active');
+        $(this).addClass('active');
+        var selector = $(this).attr('data-filter');
+        container.isotope({ filter: selector });
+        setProjects();
+        return false;
+      });
+
+
+      function splitColumns() {
+        var winWidth = $(window).width(),
+          columnNumb = 1;
+
+
+        if (winWidth > 1024) {
+          columnNumb = 4;
+        } else if (winWidth > 900) {
+          columnNumb = 2;
+        } else if (winWidth > 479) {
+          columnNumb = 2;
+        } else if (winWidth < 479) {
+          columnNumb = 1;
+        }
+
+        return columnNumb;
+      }
+
+      function setColumns() {
+        var winWidth = $(window).width(),
+          columnNumb = splitColumns(),
+          postWidth = Math.floor(winWidth / columnNumb);
+
+        container.find('.portfolio-item').each(function () {
+          $(this).css({
+            width: postWidth + 'px'
+          });
+        });
+      }
+
+      function setProjects() {
+        setColumns();
+        container.isotope('reLayout');
+      }
+
+      container.imagesLoaded(function () {
+        setColumns();
+      });
+
+
+      $(window).bind('resize', function () {
+        setProjects();
+      });
+
+    });
+    $(window).load(function () {
+      jQuery('#all').click();
+      return false;
+    });
+  </script>
+</body>
+
+</html>

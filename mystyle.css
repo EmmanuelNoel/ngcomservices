@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2? family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+#slider {
+    height: 300px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.container {
+    width: 1600px;
+    margin: auto;
+}
+
+.subcontainer {
+    width: 100%;
+    margin: auto;
+}
+
+.controller {
+    display: flex;
+    justify-content: space-between;
+}
+
+#controls i {
+    color: white;
+    font-size: 1rem;
+}
+
+.previous,
+.next {
+    padding: 2px;
+    width: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+    transition: 0.7s ease-in-out;
+    border: 3px solid white;
+    background-color: #2A7C46;
+    box-shadow: 0 0 5px #bbb;
+
+}
+
+.previous:hover,
+.next:hover {
+    border: 3px solid grey;
+}
+
+.slide-img {
+    width: 100%;
+    height: 175px;
+    border: 1px solid white;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.slide-img:hover {
+    box-shadow: 0 0 0 200px rgba(147, 173, 143, 0.9) inset;
+}
+
+.slide-img a {
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1.5rem;
+    color: white;
+    opacity: 0;
+}
+
+.slide-img:hover {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.img-1 {
+    background-image: url(Logo/12.jpg);
+}
+
+.img-2 {
+    background-image: url(Logo/2.jpg);
+}
+
+.img-3 {
+    background-image: url(Logo/3.jpg);
+}
+
+.img-4 {
+    background-image: url(Logo/4.jpg);
+}
+
+.img-5 {
+    background-image: url(Logo/5.jpg);
+}
+
+.img-6 {
+    background-image: url(Logo/113.jpg);
+}
+
+@media(max-width:1600px) {
+    .container {
+        width: 100%;
+    }
+}
